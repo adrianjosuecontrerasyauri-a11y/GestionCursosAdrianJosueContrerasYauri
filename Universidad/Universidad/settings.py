@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Universidad.Academico.apps.AcademicoConfig.Academico',
+    'Universidad.Academico.apps.AcademicoConfig',
 ]
 
 MIDDLEWARE = [
