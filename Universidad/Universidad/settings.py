@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Universidad.Academico.apps.AcademicoConfig',
+    'Academico.apps.AcademicoConfig',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Universidad.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Universidad.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
